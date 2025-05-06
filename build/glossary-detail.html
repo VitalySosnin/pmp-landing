@@ -1,0 +1,1437 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <title>Postmypost</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Unbounded:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="shortcut icon" href="img/logo_symbol_color.svg" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+  <div class="content-layout">
+    <div class="header__flex">
+      <a class="header__logo" href="main.html" title="Postmypost">
+        <picture>
+          <img src="img/logo_color.svg" alt="Postmypost" />
+        </picture>
+      </a>
+
+      <div class="header-menu">
+        <div class="header-menu__pattern" style="background-image: url(img/pattern_arcs.png)"></div>
+
+        <nav class="header-menu__nav">
+          <ul>
+            <li>
+              <a href="about.html" data-main_menu_hide>О&nbsp;проекте</a>
+            </li>
+            <li class="header-menu__sub">
+              <span class="header-menu__sub-toggler" data-main_submenu_show="tools">
+                Инструменты
+                <svg class="header-menu__chevron">
+                  <use href="img/icons.svg#chevron" />
+                </svg>
+              </span>
+              <div class="header-popover header-tools">
+                <div class="header-tools__item" data-main_menu_hide>
+                  <a href="autopost.html" class="header-tools__link"></a>
+                  <svg class="header-tools__icon">
+                    <use href="img/icons.svg#autopost" />
+                  </svg>
+                  <div class="header-tools__body">
+                    <div class="header-tools__title">Автопостинг</div>
+                    <div class="header-tools__text">
+                      Позволяет публиковать посты по&nbsp;расписанию во&nbsp;все социальные сети,
+                      экономя ваше время.
+                    </div>
+                  </div>
+                  <svg class="header-menu__chevron">
+                    <use href="img/icons.svg#chevron" />
+                  </svg>
+
+                  <!-- SUB POPOVER -->
+                  <div class="header-subpopover">
+  <div class="header-popover">
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem header__item-active"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#vk3" />
+      </svg>
+      <div class="header-tools__text">Автопостинг VKontakte</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#tg" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Telegram</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#inst" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Instagram</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#tt2" />
+      </svg>
+      <div class="header-tools__text">Автопостинг TikTok</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#fb3" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Facebook</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#ok" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Odnoklassniki</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#yt" />
+      </svg>
+      <div class="header-tools__text">Автопостинг YouTube</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#tw" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Twitter</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#pinterest" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Pinterest</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#reddit" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Reddit</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#medium" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Medium</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#bitrix" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Bitrix</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#linkedin" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Linkedin</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#discord" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Discord</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#webhook" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Webhook</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#threads" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Threads</div>
+    </a>
+    
+  </div>
+</div>
+
+                </div>
+                <div class="header-tools__item" data-main_menu_hide>
+                  <a href="monitoring.html" class="header-tools__link"></a>
+                  <svg class="header-tools__icon">
+                    <use href="img/icons.svg#message" />
+                  </svg>
+                  <div class="header-tools__body">
+                    <div class="header-tools__title">Мониторинг</div>
+                    <div class="header-tools__text">
+                      Дает возможность увеличивать продажи и&nbsp;быстро реагировать
+                      на&nbsp;комментарии пользователей в&nbsp;социальных сетях.
+                    </div>
+                  </div>
+                  <svg class="header-menu__chevron">
+                    <use href="img/icons.svg#chevron" />
+                  </svg>
+
+                  <!-- SUB POPOVER -->
+                  <div class="header-subpopover">
+  <div class="header-popover">
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem header__item-active"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#vk3" />
+      </svg>
+      <div class="header-tools__text">Автопостинг VKontakte</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#tg" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Telegram</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#inst" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Instagram</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#tt2" />
+      </svg>
+      <div class="header-tools__text">Автопостинг TikTok</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#fb3" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Facebook</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#ok" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Odnoklassniki</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#yt" />
+      </svg>
+      <div class="header-tools__text">Автопостинг YouTube</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#tw" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Twitter</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#pinterest" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Pinterest</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#reddit" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Reddit</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#medium" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Medium</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#bitrix" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Bitrix</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#linkedin" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Linkedin</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#discord" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Discord</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#webhook" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Webhook</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#threads" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Threads</div>
+    </a>
+    
+  </div>
+</div>
+
+                </div>
+                <div class="header-tools__item" data-main_menu_hide>
+                  <a href="analytics.html" class="header-tools__link"></a>
+                  <svg class="header-tools__icon">
+                    <use href="img/icons.svg#analytics" />
+                  </svg>
+                  <div class="header-tools__body">
+                    <div class="header-tools__title">Аналитика</div>
+                    <div class="header-tools__text">
+                      Предоставляет подробную аналитику постов, что помогает оптимизировать ваш
+                      контент и&nbsp;увеличить вовлеченность аудитории.
+                    </div>
+                  </div>
+
+                  <svg class="header-menu__chevron">
+                    <use href="img/icons.svg#chevron" />
+                  </svg>
+
+                  <!-- SUB POPOVER -->
+                  <div class="header-subpopover">
+  <div class="header-popover">
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem header__item-active"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#vk3" />
+      </svg>
+      <div class="header-tools__text">Автопостинг VKontakte</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#tg" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Telegram</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#inst" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Instagram</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#tt2" />
+      </svg>
+      <div class="header-tools__text">Автопостинг TikTok</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#fb3" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Facebook</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#ok" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Odnoklassniki</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#yt" />
+      </svg>
+      <div class="header-tools__text">Автопостинг YouTube</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#tw" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Twitter</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#pinterest" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Pinterest</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#reddit" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Reddit</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#medium" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Medium</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#bitrix" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Bitrix</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#linkedin" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Linkedin</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#discord" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Discord</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#webhook" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Webhook</div>
+    </a>
+    
+    <a
+      href="#"
+      class="header-tools__item header-tools__item--subitem"
+    >
+      <svg class="header-tools__icon">
+        <use href="img/icons.svg#threads" />
+      </svg>
+      <div class="header-tools__text">Автопостинг Threads</div>
+    </a>
+    
+  </div>
+</div>
+
+                </div>
+                <a
+                  href="reposter.html"
+                  class="header-tools__item header__item-active"
+                  data-main_menu_hide
+                >
+                  <svg class="header-tools__icon">
+                    <use href="img/icons.svg#rss" />
+                  </svg>
+                  <div class="header-tools__body">
+                    <div class="header-tools__title">Репостер</div>
+                    <div class="header-tools__text">
+                      Позволяет автоматически публиковать новости с&nbsp;вашего сайта
+                      в&nbsp;социальные сети через RSS, увеличивая тем самым охват аудитории.
+                    </div>
+                  </div>
+                </a>
+                <a href="ai.html" class="header-tools__item" data-main_menu_hide>
+                  <svg class="header-tools__icon">
+                    <use href="img/icons.svg#hexagon" />
+                  </svg>
+                  <div class="header-tools__body">
+                    <div class="header-tools__title">Postmypost AI</div>
+                    <div class="header-tools__text">
+                      Нейросеть, который помогает маркетологам справиться с&nbsp;рутинными задачами:
+                      от&nbsp;генерации идей и&nbsp;составления контент-плана до&nbsp;создания
+                      текстов и&nbsp;анализа данных.
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </li>
+            <li class="header-menu__sub">
+              <span class="header-menu__sub-toggler" data-main_submenu_show="channels">
+                Каналы
+                <svg class="header-menu__chevron">
+                  <use href="img/icons.svg#chevron" />
+                </svg>
+              </span>
+              <div class="header-popover header-channels">
+                <!-- INSTAGRAM -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#inst" />
+                  </svg>
+                  <div class="header-channels__title">Instagram</div>
+                </a>
+
+                <!-- FACEBOOK -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#fb" />
+                  </svg>
+                  <div class="header-channels__title">Facebook</div>
+                </a>
+
+                <!-- TWITTER -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#tw" />
+                  </svg>
+                  <div class="header-channels__title">Twitter</div>
+                </a>
+
+                <!-- LINKEDIN -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#linkedin" />
+                  </svg>
+                  <div class="header-channels__title">Linkedin</div>
+                </a>
+
+                <!-- PINTEREST -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#pinterest" />
+                  </svg>
+                  <div class="header-channels__title">Pinterest</div>
+                </a>
+
+                <!-- YOUTUBE -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#yt" />
+                  </svg>
+                  <div class="header-channels__title">YouTube</div>
+                </a>
+
+                <!-- TIKTOK -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#tt" />
+                  </svg>
+                  <div class="header-channels__title">TikTok</div>
+                </a>
+
+                <!-- DISCORD -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#discord" />
+                  </svg>
+                  <div class="header-channels__title">Discord</div>
+                </a>
+
+                <!-- REDDIT -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#reddit" />
+                  </svg>
+                  <div class="header-channels__title">Reddit</div>
+                </a>
+
+                <!-- MASTODON -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#mastodon" />
+                  </svg>
+                  <div class="header-channels__title">Mastodon</div>
+                </a>
+
+                <!-- VKONTAKTE -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#vk" />
+                  </svg>
+                  <div class="header-channels__title">VKontakte</div>
+                </a>
+
+                <!-- TELEGRAM -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#tg" />
+                  </svg>
+                  <div class="header-channels__title">Telegram</div>
+                </a>
+
+                <!-- VIBER -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#viber" />
+                  </svg>
+                  <div class="header-channels__title">Viber</div>
+                </a>
+
+                <!-- ODNOKLASSNIKI -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#ok" />
+                  </svg>
+                  <div class="header-channels__title">Odnoklassniki</div>
+                </a>
+
+                <!-- BITRIX -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#bitrix" />
+                  </svg>
+                  <div class="header-channels__title">Bitrix</div>
+                </a>
+
+                <!-- SNAPCHAT -->
+                <a
+                  href="channel.html"
+                  class="header-channels__item header__item-active"
+                  data-main_menu_hide
+                >
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#snapchat" />
+                  </svg>
+                  <div class="header-channels__title">Snapchat</div>
+                </a>
+
+                <!-- MEDIUM -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#medium" />
+                  </svg>
+                  <div class="header-channels__title">Medium</div>
+                </a>
+
+                <!-- TUMBLR -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#tumblr" />
+                  </svg>
+                  <div class="header-channels__title">Tumblr</div>
+                </a>
+
+                <!-- WEBHOOK -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#webhook" />
+                  </svg>
+                  <div class="header-channels__title">Webhook</div>
+                </a>
+
+                <!-- THREADS -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#threads" />
+                  </svg>
+                  <div class="header-channels__title">Threads</div>
+                </a>
+
+                <!-- RUTUBE -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#rutube" />
+                  </svg>
+                  <div class="header-channels__title">Rutube</div>
+                </a>
+
+                <!-- BLUESKY -->
+                <a href="channel.html" class="header-channels__item" data-main_menu_hide>
+                  <svg class="header-channels__icon">
+                    <use href="img/icons.svg#bluesky" />
+                  </svg>
+                  <div class="header-channels__title">Bluesky</div>
+                </a>
+              </div>
+            </li>
+            <li>
+              <a href="tarifs.html" data-main_menu_hide>Тарифы</a>
+            </li>
+            <li class="header-menu__sub">
+              <span class="header-menu__sub-toggler" data-main_submenu_show="resource">
+                Ресурсы
+                <svg class="header-menu__chevron">
+                  <use href="img/icons.svg#chevron" />
+                </svg>
+              </span>
+              <div class="header-popover header-resource">
+                <a href="blog.html" class="header-resource__item" data-main_menu_hide>
+                  <div class="header-channels__title">Блог</div>
+                </a>
+
+                <a href="glossary.html" class="header-resource__item" data-main_menu_hide>
+                  <div class="header-channels__title">Словарь маркетолога</div>
+                </a>
+
+                <a href="onboarding.html" class="header-resource__item" data-main_menu_hide>
+                  <div class="header-channels__title">Обучение</div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-menu__buttons">
+          <a href="#" class="button button--small button--no-padding">Вход</a>
+          <br />
+          <a href="#" class="button button--filled button--small">Регистрация</a>
+        </div>
+
+        <nav class="header-menu__links">
+          <ul>
+            <li><a href="#">English</a></li>
+            <li><a href="#">Русский</a></li>
+            <li><a href="#">Português</a></li>
+            <li><a href="#">Français</a></li>
+            <li><a href="#">Deutsch</a></li>
+            <li><a href="#">Español</a></li>
+            <li><a href="#">Italiano</a></li>
+          </ul>
+        </nav>
+
+        <nav class="header-menu__links mobile-hide">
+          <ul>
+            <li>
+              <a href="https://www.facebook.com/postmypost.io" target="_blank">Facebook</a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/postmypost.io/">Instagram</a>
+            </li>
+            <li>
+              <a href="https://vk.com/postmypost">ВКонтакте</a>
+            </li>
+            <li>
+              <a href="https://t.me/postmypost">Telegram</a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/channel/UCdXH-uF-noBPHKNOnwnop4A/videos">Youtube</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header-menu__app">
+          <a href="#">
+            <svg class="app_ico">
+              <use href="img/icons.svg#app-google-play-ru" />
+            </svg>
+          </a>
+
+          <a href="#">
+            <svg class="app_ico">
+              <use href="img/icons.svg#app-app-store-ru" />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="header__language">
+        <span>RU</span>
+        <div class="header-popover header-language">
+          <a href="#" class="header-language__item header-language__item-active">Русский</a>
+          <a href="#" class="header-language__item">English</a>
+          <a href="#" class="header-language__item">Português</a>
+          <a href="#" class="header-language__item">Français</a>
+          <a href="#" class="header-language__item">Deutsch</a>
+          <a href="#" class="header-language__item">Español</a>
+          <a href="#" class="header-language__item">Italiano</a>
+        </div>
+      </div>
+
+      <div class="header__buttons">
+        <a href="#" class="button button--bordered button--small">Вход</a>
+        <a href="#" class="button button--filled button--small">Регистрация</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-toggler" data-main_menu_toggle data-main_submenu_hide>
+    <svg class="header-toggler__burger">
+      <use href="img/icons.svg#burger" />
+    </svg>
+    <svg class="header-toggler__cross">
+      <use href="img/icons.svg#cross" />
+    </svg>
+    <svg class="header-toggler__arrow">
+      <use href="img/icons.svg#arrow" />
+    </svg>
+  </div>
+</header>
+
+
+    <!-- BREADCRUMBS -->
+    <!-- prettier-ignore -->
+    <div class="content-layout">
+  <nav class="breadcrumbs mobile-hide">
+    <ul>
+      <li><a href="/main.html">Главная</a></li>
+      
+      <li><a href="/glossary.html">Словарик маркетолога</a></li>
+      
+      <li>Муза для СММщика: где черпать вдохновение для новых рилсов?</li>
+    </ul>
+  </nav>
+</div>
+
+
+    <section class="glossary-article blog-item--wide">
+      <div class="content-layout">
+        <div class="glossary-article__wrap">
+          <h1 class="h1 glossary-article__title">
+            Муза для СММщика: где черпать вдохновение для новых рилсов?
+          </h1>
+
+          <div class="blog-item-avatar">
+            <div
+              class="blog-item-avatar__img"
+              style="background-image: url(img/avatar_3.jpg)"
+            ></div>
+            <div class="blog-item-avatar__body">
+              <div class="blog-item-avatar__name">Девушка Аватарка</div>
+              <div class="blog-item-avatar__text">друг клиентов</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--narrow blog-content">
+      <div class="content-layout">
+        <div class="blog-content__wrap">
+          <a href="#" class="button button--back mobile-hide">
+            <svg class="button__icon">
+              <use href="img/icons.svg#chevron" />
+            </svg>
+            Назад
+          </a>
+          <div class="blog-content__body">
+            <p>
+              Большинству из&nbsp;нас знакома проблема: идеи для рилсов закончились,
+              в&nbsp;дружественных или конкурирующих аккаунтах контент как под копирку. Что&nbsp;ж
+              теперь, неделями искать новые идеи? Нет! Я&nbsp;покажу вам, как с&nbsp;помощью одного
+              инструмента открыть неиссякаемый источник вдохновения и&nbsp;сэкономить время
+              на&nbsp;сценариях для рилсов.
+            </p>
+            <h1>Проблема: нет идей, нет вдохновения.</h1>
+            <p>
+              Где-то в&nbsp;параллельной вселенной существуют люди, которые генерируют идеи для
+              рилсов и&nbsp;постов по&nbsp;три штуки в&nbsp;час. И&nbsp;успевают сразу писать
+              сценарии с&nbsp;четким таймингом. Но&nbsp;в&nbsp;нашей вселенной обычные люди
+              не&nbsp;могут креативить по&nbsp;24&nbsp;часа в&nbsp;сутки. В&nbsp;поисках вдохновения
+              мы&nbsp;заходим в&nbsp;соцсети, а&nbsp;там&nbsp;&mdash; множество повторений одного
+              и&nbsp;того&nbsp;же тренда, снятые по&nbsp;типичным скучным сценариям рилсы.
+              И&nbsp;остатки вдохновения попросту испаряются. Значит, надо искать Музу в&nbsp;другом
+              месте.
+            </p>
+            <h1>Источники вдохновения.</h1>
+            <p>
+              Итак, приступим к&nbsp;поискам музы, а&nbsp;точнее&nbsp;&mdash; источников
+              вдохновения. Вот несколько самый простых, но&nbsp;не&nbsp;самых быстрых вариантов.
+            </p>
+            <h2>Посмотрите у&nbsp;конкурентов.</h2>
+            <p>
+              Пройдитесь по&nbsp;сетям конкурентов, проанализируйте, какие публикации вызвали
+              наибольший отклик. Возможно, именно эти темы привлекут и&nbsp;ваших подписчиков.
+            </p>
+            <p>
+              Самый простой способ получить обратную связь. Можно, кстати, в&nbsp;сторис отставить
+              окошко для ответов, которые в&nbsp;будущем можно использовать в&nbsp;качестве тем для
+              новых постов.
+            </p>
+            <h2>Спросите у подписчиков.</h2>
+            <p>
+              Самый простой способ получить обратную связь. Можно, кстати, в&nbsp;сторис отставить
+              окошко для ответов, которые в&nbsp;будущем можно использовать в&nbsp;качестве тем для
+              новых постов.
+            </p>
+            <p>
+              Самый простой способ получить обратную связь. Можно, кстати, в&nbsp;сторис отставить
+              окошко для ответов, которые в&nbsp;будущем можно использовать в&nbsp;качестве тем для
+              новых постов.
+            </p>
+            <h2>Следите за&nbsp;инфоповодами.</h2>
+            <p>
+              Старайтесь быть в&nbsp;курсе новостей в&nbsp;своей нише, выбирайте инфоповоды, которые
+              вписываются в&nbsp;вашу тематику, стиль и&nbsp;направление.
+            </p>
+            <p>
+              Самый простой способ получить обратную связь. Можно, кстати, в&nbsp;сторис отставить
+              окошко для ответов, которые в&nbsp;будущем можно использовать в&nbsp;качестве тем для
+              новых постов.
+            </p>
+
+            <!-- INCUT BLOCK WIDE -->
+            <div class="incut-block incut-block--wide">
+  <div class="incut-block__pattern" style="background-image: url(img/pattern_arcs.png)"></div>
+  <img class="incut-block__img" src="img/img_section_intro.jpg" alt="" />
+  <div class="incut-block__body">
+    <div class="incut-block__title">
+      Postmypost&nbsp;&mdash; Первый сервис для ведения СММ-проектов с&nbsp;искуственным
+      интеллектом!
+    </div>
+    <div class="incut-block__text">
+      Составляй контент-план с&nbsp;помощью&nbsp;ИИ, планируй посты на&nbsp;месяц
+      вперед&nbsp;&mdash; попробуй 7&nbsp;дней свободы бесплатно!
+    </div>
+    <a href="#" class="button button--filled button--small">Попробовать бесплатно</a>
+    <div class="incut-block__download-btns">
+      <a href="#" class="incut-block__download-btn">
+        <svg>
+          <use href="img/icons.svg#app-app-store-en" />
+        </svg>
+      </a>
+      <a href="#" class="incut-block__download-btn">
+        <svg>
+          <use href="img/icons.svg#app-google-play-en" />
+        </svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+            <h2>Ищите по&nbsp;поисковым запросам.</h2>
+            <p>
+              Подберите несколько ключевых слов, которые связаны с&nbsp;бизнесом и&nbsp;вводите
+              их&nbsp;в&nbsp;поисковую строку в&nbsp;сервисе Wordstat. Сервис выдаст две колонки:
+              в&nbsp;одной будут представлены запросы, совпадающие с&nbsp;вашим,
+              в&nbsp;другой&nbsp;&mdash; похожие запросы.
+            </p>
+            <p>
+              <img src="img/img_blog.jpg" alt="" />
+            </p>
+            <h1>Решение проблемы: волшебный инструмент.</h1>
+            <p>
+              Немного волшебства и&nbsp;магии никогда не&nbsp;повредит. В&nbsp;поисках вдохновения
+              можно обратиться к&nbsp;<a href="#">искусственному интеллекту</a>. Он&nbsp;никогда
+              не&nbsp;устает, в&nbsp;считанные минуты может предложить множество идей для публикаций
+              любого формата: посты, рилсы, истории, лонгриды, даже контент-план может за&nbsp;вас
+              составить!
+            </p>
+            <p>
+              Но&nbsp;не&nbsp;станем пока углубляться в&nbsp;контент-план, а&nbsp;попросим
+              искусственный интеллект предложить 10&nbsp;идей для рилсов об&nbsp;авторском шоколаде
+              ручной работы. Запрос должен содержать как можно больше деталей. Например, можно
+              указать виды начинок или форму готовых шоколадных лакомств. Вот что выдал&nbsp;ИИ:
+            </p>
+            <img src="img/img_blog.jpg" alt="" />
+            <p>
+              На&nbsp;генерацию идей у&nbsp;искусственного интеллекта ушло не&nbsp;больше
+              30&nbsp;секунд. Делаем второй запрос и&nbsp;просим написать подробный сценарий для
+              Reels. Через полминуты получаем подробный сценарий с&nbsp;действиями и&nbsp;прямой
+              речью ведущего.
+            </p>
+            <figure>
+              <img src="img/img_blog.jpg" alt="" />
+              <figcaption>&mdash;&nbsp;Пусть будет где то&nbsp;здесь эта подпись</figcaption>
+            </figure>
+            <p>
+              На&nbsp;генерацию идей у&nbsp;искусственного интеллекта ушло не&nbsp;больше
+              30&nbsp;секунд. Делаем второй запрос и&nbsp;просим написать подробный сценарий для
+              Reels. Через полминуты получаем подробный сценарий с&nbsp;действиями и&nbsp;прямой
+              речью ведущего.
+            </p>
+            <h1>Что имеем?</h1>
+            <p>
+              А имеем мы прекрасную возможность экономить время, тратя вместо 2-3 часов на
+              выполнение задачи лишь полчаса. Еще — неиссякаемый источник вдохновения и генератор
+              идей для множества рилсов, постов и прочего. Теперь вам остается лишь воплотить все
+              это в жизнь и получить новых клиентов и заказчиков. И да пребудет с вами Муза!
+            </p>
+
+            <ul>
+              <li>
+                А имеем мы прекрасную возможность экономить время, тратя вместо 2-3 часов на
+                выполнение задачи лишь полчаса. Еще — неиссякаемый источник вдохновения и генератор
+                идей для множества рилсов, постов и прочего. Теперь вам остается лишь воплотить все
+                это в жизнь и получить новых клиентов и заказчиков. И да пребудет с вами Муза!
+              </li>
+              <li>
+                А имеем мы прекрасную возможность экономить время, тратя вместо 2-3 часов на
+                выполнение задачи лишь полчаса. Еще — неиссякаемый источник вдохновения и генератор
+                идей для множества рилсов, постов и прочего. Теперь вам остается лишь воплотить все
+                это в жизнь и получить новых клиентов и заказчиков. И да пребудет с вами Муза!
+              </li>
+              <li>
+                А имеем мы прекрасную возможность экономить время, тратя вместо 2-3 часов на
+                выполнение задачи лишь полчаса. Еще — неиссякаемый источник вдохновения и генератор
+                идей для множества рилсов, постов и прочего. Теперь вам остается лишь воплотить все
+                это в жизнь и получить новых клиентов и заказчиков. И да пребудет с вами Муза!
+              </li>
+            </ul>
+            <ol>
+              <li>
+                А имеем мы прекрасную возможность экономить время, тратя вместо 2-3 часов на
+                выполнение задачи лишь полчаса. Еще — неиссякаемый источник вдохновения и генератор
+                идей для множества рилсов, постов и прочего. Теперь вам остается лишь воплотить все
+                это в жизнь и получить новых клиентов и заказчиков. И да пребудет с вами Муза!
+              </li>
+              <li>
+                А имеем мы прекрасную возможность экономить время, тратя вместо 2-3 часов на
+                выполнение задачи лишь полчаса. Еще — неиссякаемый источник вдохновения и генератор
+                идей для множества рилсов, постов и прочего. Теперь вам остается лишь воплотить все
+                это в жизнь и получить новых клиентов и заказчиков. И да пребудет с вами Муза!
+              </li>
+              <li>
+                А имеем мы прекрасную возможность экономить время, тратя вместо 2-3 часов на
+                выполнение задачи лишь полчаса. Еще — неиссякаемый источник вдохновения и генератор
+                идей для множества рилсов, постов и прочего. Теперь вам остается лишь воплотить все
+                это в жизнь и получить новых клиентов и заказчиков. И да пребудет с вами Муза!
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class="blog-content__footer">
+          <a href="#" class="button button--back">
+            <svg class="button__icon">
+              <use href="img/icons.svg#chevron" />
+            </svg>
+            Назад
+          </a>
+          <div class="blog-content__line"></div>
+          <div class="blog-content__stats text-16">
+            <div><strong>247</strong> понравилась статья</div>
+            <div><strong>328</strong> прочитали</div>
+          </div>
+          <div class="blog-content__rate text-18">
+            <div class="rate">
+              <div class="rate__button">
+                <svg class="rate__icon">
+                  <use href="img/icons.svg#like" />
+                </svg>
+              </div>
+              <div class="rate__button">
+                <svg class="rate__icon">
+                  <use href="img/icons.svg#like" />
+                </svg>
+              </div>
+            </div>
+            Понравилась статья?
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+  <div class="footer__pattern" style="background-image: url(img/pattern_arcs.png)"></div>
+  <div class="content-layout">
+    <a class="footer__logo" href="main.html">
+      <img src="img/logo_color.svg" alt="Postmypost" />
+    </a>
+
+    <div class="footer__flex footer__flex--no-gap">
+      <div class="footer__col footer__col--60">
+        <div class="footer__title">Нам доверяют</div>
+        <div class="footer__text footer__text--big">
+          Postmypost&nbsp;— сервис для создания, согласования и&nbsp;публикации контента
+          в&nbsp;соцсетях, который помогает маркетологам, специалистам и&nbsp;бизнесу работать
+          совместно.
+        </div>
+      </div>
+
+      <div class="footer__col footer__col--40 mobile-hide">
+        <div class="footer__flex footer__stats">
+          <div class="footer__col">
+            <div class="footer__text footer__text--large">10 647 612</div>
+            <div class="footer__text footer__text--big">сделано постов</div>
+          </div>
+          <div class="footer__col">
+            <div class="footer__text footer__text--large">74 026</div>
+            <div class="footer__text footer__text--big">подключенных аккаунтов</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <ul class="footer__social">
+      <li>
+        <a href="https://www.facebook.com/postmypost.io" target="_blank">
+          <svg>
+            <use href="img/icons.svg#fb2" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/postmypost.io/">
+          <svg>
+            <use href="img/icons.svg#inst2" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://vk.com/postmypost">
+          <svg>
+            <use href="img/icons.svg#vk2" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://t.me/postmypost">
+          <svg>
+            <use href="img/icons.svg#tg2" />
+          </svg>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.youtube.com/channel/UCdXH-uF-noBPHKNOnwnop4A/videos">
+          <svg>
+            <use href="img/icons.svg#yt2" />
+          </svg>
+        </a>
+      </li>
+    </ul>
+
+    <nav class="footer__flex footer__flex--no-gap footer__menu">
+      <div class="footer__col footer__col--20 footer__col--order-1">
+        <div class="footer__title">Инструменты</div>
+        <ul>
+          <li>
+            <a href="autopost.html">Автопостинг</a>
+          </li>
+          <li>
+            <a href="monitoring.html">Мониторинг</a>
+          </li>
+          <li>
+            <a href="analytics.html">Аналитика</a>
+          </li>
+          <li>
+            <a href="reposter.html">Репостер</a>
+          </li>
+          <li>
+            <a href="ai.html">Postmypost AI</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col footer__col--20 footer__col--order-2">
+        <div class="footer__title">Сервис</div>
+        <ul>
+          <li>
+            <a href="#">Обновления</a>
+          </li>
+          <li>
+            <a href="#">Центр помощи</a>
+          </li>
+          <li>
+            <a href="#">Поделится идеей</a>
+          </li>
+          <li>
+            <a href="#">Статус платформы</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col footer__col--20 footer__col--order-4">
+        <div class="footer__title">Ресурсы</div>
+        <ul>
+          <li>
+            <a href="#">Блог</a>
+          </li>
+          <li>
+            <a href="#">Cловарь маркетолога</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col footer__col--20 footer__col--order-3">
+        <div class="footer__title">Обучение</div>
+        <ul>
+          <li>
+            <a href="#">Начало работы</a>
+          </li>
+          <li>
+            <a href="#">Как управлять проектами и&nbsp;соцсетями</a>
+          </li>
+          <li>
+            <a href="#">Публикация постов</a>
+          </li>
+          <li>
+            <a href="#">Мониторинг</a>
+          </li>
+          <li>
+            <a href="#">Аналитика</a>
+          </li>
+          <li>
+            <a href="#">Postmypost AI</a>
+          </li>
+          <li>
+            <a href="#">Командная работа</a>
+          </li>
+          <li>
+            <a href="#">Тарифы</a>
+          </li>
+          <li>
+            <a href="#">Партнерская программа</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__col footer__col--20 footer__col--order-5 footer__col--full-width">
+        <div class="footer__title">Документы</div>
+        <ul>
+          <li>
+            <a href="#">Пользовательское соглашение</a>
+          </li>
+          <li>
+            <a href="#">Политика конфиденциальности</a>
+          </li>
+          <li>
+            <a href="#">Соглашение об&nbsp;автоматическом продлении</a>
+          </li>
+          <li>
+            <a href="#">Информация о&nbsp;работе с&nbsp;юридическими лицами</a>
+          </li>
+          <li>
+            <a href="#">Партнерская программа</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="footer__flex footer__flex--no-gap">
+      <nav class="footer__col footer__col--20 footer__links mobile-hide">
+        <ul>
+          <li><a href="#">English</a></li>
+          <li><a href="#">Русский</a></li>
+          <li><a href="#">Português</a></li>
+          <li><a href="#">Français</a></li>
+          <li><a href="#">Deutsch</a></li>
+          <li><a href="#">Español</a></li>
+          <li><a href="#">Italiano</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile-hide footer__col footer__col--40">
+        <div class="footer__title">Техническая поддержка</div>
+        <div class="footer__text">
+          Мы&nbsp;всегда рады ответить вам в&nbsp;чате поддержки 7&nbsp;дней в&nbsp;неделю
+          с&nbsp;08:00&nbsp;— 20:00 по&nbsp;МСК.
+        </div>
+      </div>
+
+      <nav class="mobile-hide footer__links footer__col footer__col--40">
+        <ul>
+          <li>
+            <a href="https://www.facebook.com/postmypost.io" target="_blank">Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/postmypost.io/">Instagram</a>
+          </li>
+          <li>
+            <a href="https://vk.com/postmypost">ВКонтакте</a>
+          </li>
+          <li>
+            <a href="https://t.me/postmypost">Telegram</a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/channel/UCdXH-uF-noBPHKNOnwnop4A/videos">Youtube</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer__flex footer__bottom">
+      <div class="footer__col footer__info footer__col--60">
+        <div class="footer__copyright">
+          ИП&nbsp;Никифоров Александр Викторович, ОГРНИП: 319420500019953, ИНН: 421709879080<br />
+          Post My Post LTD<br />
+          7a Dupouy Ave, 72351, Quatre - Bornes<br />
+        </div>
+        <div class="footer__email">
+          Для рекламы и&nbsp;предложений
+          <a href="mailto:marketing@postmypost.io">marketing@postmypost.io</a>
+        </div>
+      </div>
+
+      <div class="footer__col footer__app footer__col--40">
+        <a href="#">
+          <svg class="app_ico">
+            <use href="img/icons.svg#app-google-play-ru" />
+          </svg>
+        </a>
+
+        <a href="#">
+          <svg class="app_ico">
+            <use href="img/icons.svg#app-app-store-ru" />
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+    ></script>
+    <script type="text/javascript" src="js/action.js"></script>
+  </body>
+</html>
