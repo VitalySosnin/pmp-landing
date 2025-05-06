@@ -7,8 +7,6 @@
 package.json
 package-lock.json
 
-/build
-
 # misc
 .DS_Store
 .env.local
