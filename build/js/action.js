@@ -9,7 +9,9 @@
   initSwiper();
 
   function initMainMenu() {
-    if (!elHtml || !elBody) return;
+    if (!elHtml || !elBody) {
+      return;
+    }
 
     const targetMenuClass = 'show-mobile-menu';
     const targetSubMenuClass = 'show-mobile-submenu';
@@ -62,7 +64,7 @@
     });
   }
 
-  function initDelayedAnimation() {
+  /*function initDelayedAnimation() {
     const targetClass = 'delayed-animation';
     const observer = new IntersectionObserver(
       (entries) => {
@@ -77,7 +79,7 @@
       el.classList.remove(targetClass + '-start');
       observer.observe(el);
     });
-  }
+  }*/
 
   function initSwiper() {
     new Swiper('.swiper-common', {
