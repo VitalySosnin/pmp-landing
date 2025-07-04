@@ -82,6 +82,10 @@
   }*/
 
   function initSwiper() {
+    if (!Swiper) {
+      return;
+    }
+
     new Swiper('.swiper-common', {
       slidesPerView: 1,
       spaceBetween: -24,
